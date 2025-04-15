@@ -125,11 +125,6 @@ font-weight: bold;}
   text-transform: uppercase;
 }
 
-.btn-label img {
-  width: 11px;
-  vertical-align: middle;
-  margin-left: 5px;
-}
 
 .bg-grey{
   background-color: rgb(131, 131, 131);
@@ -138,14 +133,7 @@ font-weight: bold;}
 }
 
 
-.positionbox {
-  position: relative;
-  box-shadow: 1px 0px 40px #949292;
-  color: #fff;
-  padding: 10px;
-  background-color: #9e9393;
-  margin-bottom: 1rem;
-}
+
 
 .contantbox {
   padding-left: 20px;
@@ -162,9 +150,6 @@ font-weight: bold;}
   font-size: 1.6rem;
   margin-left: 1rem;
 }
-.title-special span {
-  color: rgb(156, 16, 16)
-}
 
 .btn-container {
   display: flex;
@@ -179,46 +164,13 @@ font-weight: bold;}
 .btn-label a {
   text-decoration: none;
 }
-.footer-box {
-  background-color: #f8f9fa;
-  padding: 10px;
-  margin-bottom: 20px;
-  margin-left: 3rem;
-}
 
-.link-box {
-  background-color: #343a40;
-  color: white;
-  padding: 20px;
-  margin-bottom: 20px;
-  border-radius: 5px;
-}
-.link-box p {
-  margin-bottom: 15px;
-}
+
 .action-btn .btn {
-  display: inline-flex;
   align-items: center;
   background-color: rgb(156, 16, 16);
   color: white;
   padding: 5px 15px;
   border-radius: 5px;
   text-decoration: none;
-}
-.logo-container {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 20px;
-}
-.lastbox {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-.lastbox h3 {
-  margin-right: 15px;
-  margin-bottom: 0;
-}
-#font-box{
-  font-size: 40px;
 }
