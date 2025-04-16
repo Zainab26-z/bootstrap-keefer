@@ -59,28 +59,6 @@ font-weight: bold;}
  }
 
 
-.box-actions .btn {
-  background-color: #ab0906;
-  padding: 3px 4px;
-  text-align: end;
-  position: relative;
-  margin-bottom: 40%;
-  left: 40%;
-  
-}
-
-.action-btn .btn {
-  background-color: #ab0906;
-  text-align: center;
-  width: 40%;
-  position: relative;
-  margin-bottom: 20px;}
-
-.box-actions .btn a {
-  text-decoration: none;
-  text-transform: uppercase;
-  color: #fff;
-}
 
 .BORDERIMAGE {
   display: block;
@@ -88,11 +66,12 @@ font-weight: bold;}
 }
 
 .btn-shadow {
-  background: url("../images/lf_bt_hr_shadow.png");
+  background: url("images/lf_bt_hr_shadow.png");
   background-repeat: no-repeat;
   background-position: bottom center;
   padding: 6px;
   background-size: contain;
+  
 }
 
 .btn-container .btn-icon {
@@ -102,6 +81,14 @@ font-weight: bold;}
 
 .btn-container .btn-icon img {
   height: 100%;
+}
+
+.btn-shadow1 {
+  background: url("images/lf_bt_hr_shadow.png");
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: contain;
+  
 }
 
 .btn-label {
@@ -131,8 +118,6 @@ font-weight: bold;}
   height: 30px;
   width: 250px;
 }
-
-
 
 
 .contantbox {
@@ -173,4 +158,33 @@ font-weight: bold;}
   padding: 5px 15px;
   border-radius: 5px;
   text-decoration: none;
+}
+.action-btn {
+  margin-top: 10px;
+  border-top: 2px ridge rgb(223, 217, 217);
+  width: 60%;
+}
+
+.action-btn .btn {
+  background-color: #ab0906;
+  text-align: center;
+  position: relative;
+  left: 68px;
+  margin-bottom: 20px;
+}
+
+.action-btn .btn a {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  padding: 3px 3px;
+}
+
+.btn-bg {
+  background: url("images/lf_bt_hr_shadow.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+  
 }
