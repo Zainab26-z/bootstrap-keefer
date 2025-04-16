@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,29 +9,34 @@
     <!-- Bootstrap 5 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
+
 <body>
     <!-- Header Section -->
     <header class="container-fluid py-3 px-4">
         <div class="row align-items-center">
             <!-- Left side - Logo -->
-            <div class="col-6">
+            <div class="col-md-6 col-12 text-center text-md-start">
                 <img src="images/logo.png" alt="KEEPER Logo" class="img-fluid" style="width: 100%;">
             </div>
-            
+
             <!-- Right side - Contact info -->
-            <div class="col-6 text-end">
-                <div class="d-flex flex-column align-items-end">
-                    <h2 class="mb-0 fw-bold" style="color:rgb(156, 16, 16); font-size: 1.5rem; text-decoration: underline; text-decoration-color: rgb(102, 99, 99); text-underline-offset: 0.4rem;">CALL OUR OFFICES NOW!</h2>
-                    <p class="phone-number mb-0 fw-bold" style="font-size: 2.8rem; letter-spacing: 1px;">540.433.6906</p>
-                    <p class="mb-0 text-secondary fw-bold" style="font-size: 1rem;letter-spacing: 1px;">Get Your Questions Answered Fast</p>
+            <div class="col-md-6 col-12 text-center text-md-end mt-3   mt-md-0">
+                <div class="d-flex flex-column ">
+                    <h2 class="mb-0 fw-bold"
+                        style="color:rgb(156, 16, 16); font-size: 1.5rem; text-decoration: underline; text-decoration-color: rgb(102, 99, 99); text-underline-offset: 0.4rem;">
+                        CALL OUR OFFICES NOW!</h2>
+                    <p class="phone-number mb-0 fw-bold" style="font-size: 2.8rem; letter-spacing: 1px;">540.433.6906
+                    </p>
+                    <p class="mb-0 text-secondary fw-bold" style="font-size: 1rem;letter-spacing: 1px;">Get Your
+                        Questions Answered Fast</p>
                 </div>
             </div>
         </div>
     </header>
 
     <!-- Navigation Section -->
-    <nav class="navbar navbar-expand-lg bg-white py-2 px-2  mb-4">
-        <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg bg-white py-2 px-2  mb-4 ">
+        <div class="container-fluid ">
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item me-3">
@@ -60,18 +66,23 @@
     </nav>
     <!-- ...... -->
     <div class="">
-      <div class="row ms-4 me-4">
-       <div class="col-6" >
-         <img src="images/gurantee_banner.gif" class="img-fluid" id="banner-image" style="width: 100%; height: 100%;">                                         
-       </div>
-       <div class="col-6 ps-3" id="form">
+        <div class="display-container row ms-4 me-4">
+            <div class="col-md-6 col-12 mb-4">
+                <img src="images/gurantee_banner.gif" class="img-fluid" id="banner-image"
+                    style="width: 100%; height: 100%;">
+            </div>
+            <div class="col-md-6 col-12 mb-4 " id="form">
 
-       <div class="row">
-                    <div class="col">
-                        <h3 style="background-color: #8d1816; color: #fff; font-size: 1.7rem;  padding: 8px 15px; letter-spacing: 1px;">QUESTION?</h3>
+                <div class="row">
+                    <div class="col-md-6 col-12  ">
+                        <h3
+                            style="background-color: #8d1816; color: #fff; font-size: 1.7rem;  padding: 8px 15px; letter-spacing: 1px;">
+                            QUESTION?</h3>
                     </div>
                     <div class="col">
-                        <p style="font-weight: bold;">Have a <span style="font-size: 30px; color: rgb(18, 84, 88); font-weight: bold;">Question</span><br>About Your Case?</p>
+                        <p style="font-weight: bold;">Have a <span
+                                style="font-size: 30px; color: rgb(18, 84, 88); font-weight: bold;">Question</span><br>About
+                            Your Case?</p>
                     </div>
                 </div>
                 <div class="row">
@@ -82,133 +93,156 @@
                 <!-- Form Section -->
                 <div class="d-flex ">
                     <div>
-                    <div class="row">
-                        <label for="name" class="col-sm-2">Name:</label>
-                        <div class="col-sm-10">
-                            <input type="text" class="form-control w-100 mb-2" placeholder="">
+                        <div class="row">
+                            <label for="name" class="col-sm-2">Name:</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control w-100 mb-2" placeholder="">
+                            </div>
                         </div>
-                    </div>
-                    <div class="row mb-2 g-1">
-                        <label for="email" class="col-sm-2">Email</label>
-                        <div class="col-sm-10">
-                            <input type="email" class="form-control w-100 mb-1" id="email" placeholder="">
+                        <div class="row mb-2 g-1">
+                            <label for="email" class="col-sm-2">Email</label>
+                            <div class="col-sm-10">
+                                <input type="email" class="form-control w-100 mb-1" id="email" placeholder="">
+                            </div>
                         </div>
-                    </div>
-                    <div class="row mb-2 g-1">
-                        <label for="phone-number" class="col-sm-2">Phone</label>
-                        <div class="col-sm-10">
-                            <input type="tel" class="form-control w-100" id="phone-number" placeholder="">
-                        </div></div>
+                        <div class="row mb-2 g-1">
+                            <label for="phone-number" class="col-sm-2">Phone</label>
+                            <div class="col-sm-10">
+                                <input type="tel" class="form-control w-100" id="phone-number" placeholder="">
+                            </div>
+                        </div>
                     </div>
                     <div class="confi-logo position-relative ">
                         <img src="images/confidential.png">
-                    </div> </div>
-                    <div class="mb-3">
-                        <label for="exampleFormControlTextarea1" class="form-label"></label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Tell us about your case here"></textarea>
                     </div>
-                    <div class="row">
-                        <div class="col">
-                            <p style="color: rgb(122, 116, 116);"><i>100% Privacy Guranteed</i></p>
-                        </div>
-                        <div class="col" id="about-btn">
-                            <a href="">Ask us about your case</a>
-                            <img src="images/bullet_white_lrg.png" alt="">
-                        </div> </div></div></div></div>
-        <!-- ............................ -->
-         <div class= "about-container me-5 ms-5 mt-4">
-            <div class="row height-100">
-                <div class="col-4 ">
-                    <div class="grey" style="font-size: 1.8rem;">CHARGED WITH <span class="red"> DUI? </span></h2>
-                        <h4 class="red">FREE CASE EVALUATION </h4></div>
-                        <div class="d-flex align-items-center">
-                            <div class="col"> <p>Being charged with a DUI can be scary. Get the help you deserve.</p>
-                             <p>Click here to let us know how we can help you with your case.</p></div>
-                            <div class="col"> <img src="images/paste_board.gif" alt="Paste Board"></div> </div>
-                            <!-- button... -->
-                            <div class="box-actions">
-                                <div class="action-btn">
-                                    <div class="btn-bg"></div>
-                                    <div class="btn btn-main">
-                                        <a href="#">click here</a>
-                                        <img src="images/bullet_white.gif" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- .... -->
                 </div>
-                <!-- .................. -->
-                <div class="col-4" style=" border-left: 1px solid rgb(231, 222, 222); border-right: 1px solid rgb(209, 193, 193);">
-    <div class="d-flex align-items-end">
-        <div class="col"> <h2 class="grey">LAW <span class="red">BLOG</span></h2>
-            <p>Learn more about
-            <br>Virginia Traffic Laws.</p></div>
-            <div class="col"> <img src="images/pic1.gif" alt="Laptop"></div> </div> <br>
-             <!-- button... -->
-             <div class="box-actions">
-                <div class="action-btn btn-special">
-                    <div class="btn-bg"></div>
-                    <div class="btn btn-main">
-                        <a href="#">click here</a>
-                        <img src="images/bullet_white.gif" alt="">
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label"></label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                        placeholder="Tell us about your case here"></textarea>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <p style="color: rgb(122, 116, 116);"><i>100% Privacy Guranteed</i></p>
+                    </div>
+                    <div class="col" id="about-btn">
+                        <a href="">Ask us about your case</a>
+                        <img src="images/bullet_white_lrg.png" alt="">
                     </div>
                 </div>
             </div>
-            <!-- .... -->
-            <div class="divider"></div>
-            <div class="d-flex">
-                <div class="col"><h2 class="grey">CASE <span class="red">RESULT</span></h2>
-                    <p>See how we help our clients.
-                    <br>Read our latest case results.</p></div>
-               <div class="col"><img src="images/order_icon.gif" alt=""></div>
+        </div>
+    </div>
+    <!-- ............................ -->
+    <div class="about-container me-5 ms-5 mt-4">
+        <div class="row height-100">
+            <div class="col-12 col-md-3 ms-5" id="container-a1">
+                <div class="grey " style="font-size: 1.8rem;">CHARGED WITH <span class="red"> DUI? </span></h2>
+                    <h4 class="red ">FREE CASE EVALUATION </h4>
                 </div>
-              <!-- button... -->
-              <div class="box-actions">
-                <div class="action-btn btn-special">
-                    <div class="btn-bg"></div>
-                    <div class="btn btn-main">
-                        <a href="#">click here</a>
-                        <img src="images/bullet_white.gif" alt="">
+                <div class="d-flex align-items-center">
+                    <div>
+                        <p>Being charged with a DUI <br> can be scary. Get the help <br> you deserve.</p>
+                        <p>Click here to let us know <br> how we can help you with <br> your case.</p>
                     </div>
+                    <div class="col-4 col-md-4"> <img src="images/paste_board.gif" alt="Paste Board"></div>
                 </div>
-            </div>
-            <!-- .... -->
-  
-  
-  </div>
-                <!-- .......... -->
-                 <div class="col-4"> 
-                    <div class="d-flex align-items-center mb-1">
-                        <div class="col"> <img src="images/qqq.gif" alt=""></div>
-                        <div class="col"> <img src="images/national_college_small.gif" alt=""></div> </div>
-                        <div> 
-                            <h2 class="grey">CERTIFICATE &<span class="red">CREDENTIALS</span></h2>
-                            <p>Keefer Law Firm has protected <br> the rights of Virginians for over 30 years. </p>
-                        
-                    </div>
-                     <!-- button... -->
-                     <div class="box-actions">
-                        <div class="action-btn btn-special">
-                            <div class="btn-bg "></div>
-                            <div class="btn btn-main">
-                                <a href="#">click here</a>
-                                <img src="images/bullet_white.gif" alt="">
-                            </div>
+                <!-- button... -->
+                <div class="box-actions">
+                    <div class="action-btn">
+                        <div class="btn-bg"></div>
+                        <div class="btn btn-main">
+                            <a href="#">click here</a>
+                            <img src="images/bullet_white.gif" alt="">
                         </div>
                     </div>
-                    <!-- .... -->
-                 </div>
+                </div>
+                <!-- .... -->
             </div>
-         </div>
-         <div class="BORDERIMAGE"> <img src="Images/lf_bt_hr_shadow.png"> </div>
-<!-- ........... -->
+            <!-- .................. -->
+            <div class="container-a  col-12 col-md-4"
+                style=" border-left: 1px solid rgb(231, 222, 222); border-right: 1px solid rgb(209, 193, 193); "
+                id="container-c">
+                <div class="display-container d-flex ">
+                    <div class="col-4 col-md-6 box-3">
+                        <h2 class="grey">LAW <span class="red">BLOG</span></h2>
+                        <p>Learn more about
+                            <br>Virginia Traffic Laws.
+                        </p>
+                    </div>
+                    <div class="col-4 col-md-4"> <img src="images/pic1.gif" alt="Laptop"></div>
+                </div> <br>
+                <!-- button... -->
+                <div class="box-actions">
+                    <div class="action-btn btn-special">
+                        <div class="btn-bg"></div>
+                        <div class="btn btn-main">
+                            <a href="#">click here</a>
+                            <img src="images/bullet_white.gif" alt="">
+                        </div>
+                    </div>
+                </div>
+                <!-- .... -->
+                <div class="divider"></div>
+                <div class="d-flex">
+                    <div class="col-4 col-md-4 ">
+                        <h2 class="grey">CASE <span class="red">RESULT</span></h2>
+                        <p>See how we help our clients.
+                            <br>Read our latest case results.
+                        </p>
+                    </div>
+                    <div class="col-4 col-md-3"><img src="images/order_icon.gif" alt=""></div>
+                </div>
+                <!-- button... -->
+                <div class="box-actions">
+                    <div class="action-btn btn-special">
+                        <div class="btn-bg"></div>
+                        <div class="btn btn-main">
+                            <a href="#">click here</a>
+                            <img src="images/bullet_white.gif" alt="">
+                        </div>
+                    </div>
+                </div>
+                <!-- .... -->
+
+
+            </div>
+            <!-- .......... -->
+            <div class="col-12
+                 
+                 col-md-4 box-4" id="container-b">
+                <div class="d-flex align-items-center mb-1">
+                    <div class="col"> <img src="images/qqq.gif" alt=""></div>
+                    <div class="col"> <img src="images/national_college_small.gif" alt=""></div>
+                </div>
+                <div>
+                    <h2 class="grey">CERTIFICATE &<span class="red">CREDENTIALS</span></h2>
+                    <p>Keefer Law Firm has protected <br> the rights of Virginians for over 30 years. </p>
+
+                </div>
+                <!-- button... -->
+                <div class="box-actions">
+                    <div class="action-btn btn-special">
+                        <div class="btn-bg "></div>
+                        <div class="btn btn-main">
+                            <a href="#">click here</a>
+                            <img src="images/bullet_white.gif" alt="">
+                        </div>
+                    </div>
+                </div>
+                <!-- .... -->
+            </div>
+        </div>
+    </div>
+    <div class="BORDERIMAGE"> <img src="Images/lf_bt_hr_shadow.png"> </div>
+    <!-- ........... -->
 
     <div class="mt-4 ms-5 me-5 ">
         <div class="row">
             <!-- First Column (Practice Area) -->
-            <div class="col-3">
-                <h2 class="ms-4">PRACTICE <span class="red">AREA</span></h2>
-                
+            <div class="col-12 col-md-4  text-center text-md-center">
+                <h2 class=" ms-4">PRACTICE <span class="red">AREA</span></h2>
+
                 <!-- Practice Buttons -->
                 <div class="practice-btn">
                     <div class="btn-container">
@@ -225,7 +259,7 @@
                     </div>
                     <div class="btn-shadow"></div>
                 </div>
-                
+
                 <div class="practice-btn">
                     <div class="btn-container">
                         <div class="btn-icon">
@@ -241,7 +275,7 @@
                     </div>
                     <div class="btn-shadow"></div>
                 </div>
-                
+
                 <div class="practice-btn">
                     <div class="btn-container">
                         <div class="btn-icon">
@@ -257,7 +291,7 @@
                     </div>
                     <div class="btn-shadow"></div>
                 </div>
-                
+
                 <div class="practice-btn">
                     <div class="btn-container">
                         <div class="btn-icon">
@@ -273,17 +307,17 @@
                     </div>
                     <div class="btn-shadow"></div>
                 </div>
-                
+
                 <h2 class="box-title title-special grey mb-5 mt-4">LEARN <span class="red ">MORE</span> ABOUT</h2>
                 <div class="ms-5">
                     <h1 style="font-size: 25px; color: rgb(189, 176, 176);">MENU</h1>
                     <h1 style="font-size: 25px; color: rgb(189, 176, 176);"">AREA</h1>
-                    <h1 style="font-size: 25px; color: rgb(189, 176, 176);"">HEADER</h1>
+                    <h1 style=" font-size: 25px; color: rgb(189, 176, 176);"">HEADER</h1>
                 </div>
             </div>
             <!-- ............
              -->
-             <div class="col-6 " style="color: rgb(97, 93, 93);">
+            <div class="col-12 col-md-4 text-center text-md-center mt-4 mt-md-4 " style="color: rgb(97, 93, 93);">
                 <h1> Page title here</h1>
                 <p>Asunt in anim uis aute irure dolor in reprehenderit in voluptatevelit esse cilium dolore eu
                     fugiat nulls pariatur. Excepteur sint occaecat cupidatat non proident, sunt in anim id est
@@ -298,69 +332,84 @@
             </div>
             <!-- .................
              -->
-          
-           <div class="col-3 ">
- <div> <h2 class="grey">CLIENT <span class="red">TESTIMONIAL </span></h2></div>
- <div><p>Read what others say  <br>about Keefer Law Firm.</p></div>
- <div class="box-actions">
-    <div class="action-btn btn-special">
-        <div class="btn-shadow1"></div>
-        <div class="btn btn-main">
-            <a href="#">click here</a>
-            <img src="images/bullet_white.gif" alt="">
-        </div>
-    </div>
-</div>
 
-<div> <h2 class="grey">DOWNLOAD <span class="red">FREE </span> REPORTS</div>
- <div><p>Discover the truth about <br>Virginia Law.</p></div>
- <div class="box-actions">
-    <div class="action-btn btn-special">
-        <div class="btn-shadow1"></div>
-        <div class="btn btn-main">
-            <a href="#">click here</a>
-            <img src="images/bullet_white.gif" alt="">
-        </div>
-    </div>
-</div>
+            <div class="col-12 col-md-4 text-center text-md-end mt-4 mt-md-t">
+                <div>
+                    <h2 class="grey">CLIENT <span class="red">TESTIMONIAL </span></h2>
+                </div>
+                <div>
+                    <p>Read what others say <br>about Keefer Law Firm.</p>
+                </div>
+                <div class="box-actions">
+                    <div class="action-btn btn-special">
+                        <div class="btn-shadow1"></div>
+                        <div class="btn btn-main">
+                            <a href="#">click here</a>
+                            <img src="images/bullet_white.gif" alt="">
+                        </div>
+                    </div>
+                </div>
 
-<div> <h2 class="grey">CONTACT <span class="red">OUR </span>OFFIECES</h2></div>
-    <div><p>Read what others say  <br>about Keefer Law Firm.</p></div>
-    <div class="box-actions">
-       <div class="action-btn btn-special">
-           <div class="btn-shadow1"></div>
-           <div class="btn btn-main">
-               <a href="#">click here</a>
-               <img src="images/bullet_white.gif" alt="">
-           </div>
-       </div>
-   </div>
-    
-    <!-- ..... -->
-           
-    <div class="">
-        <div class="mb-4 ms-5">
-            <img src="Images/avo_rating_large.gif">
-        </div>
-        <div class="mb-4 ms-5">
-            <img src="images/national_college_large.gif" alt="">
+                <div>
+                    <h2 class="grey">DOWNLOAD <span class="red">FREE </span> REPORTS
+                </div>
+                <div>
+                    <p>Discover the truth about <br>Virginia Law.</p>
+                </div>
+                <div class="box-actions">
+                    <div class="action-btn btn-special">
+                        <div class="btn-shadow1"></div>
+                        <div class="btn btn-main">
+                            <a href="#">click here</a>
+                            <img src="images/bullet_white.gif" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <h2 class="grey">CONTACT <span class="red">OUR </span>OFFIECES</h2>
+                </div>
+                <div>
+                    <p>Read what others say <br>about Keefer Law Firm.</p>
+                </div>
+                <div class="box-actions">
+                    <div class="action-btn btn-special">
+                        <div class="btn-shadow1"></div>
+                        <div class="btn btn-main">
+                            <a href="#">click here</a>
+                            <img src="images/bullet_white.gif" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ..... -->
+
+                <div class="">
+                    <div class="mb-4 ms-5">
+                        <img src="Images/avo_rating_large.gif">
+                    </div>
+                    <div class="mb-4 ms-5">
+                        <img src="images/national_college_large.gif" alt="">
+                    </div>
+                </div>
+                <!-- social links -->
+
+                <div class="ms-5">
+                    <h3 class="grey">FOLLOW <span class="red"> US</span></h3>
+                    <img src="Images/fb_icon.gif" alt="">
+                    <img src="Images/google_icon.gif" alt="">
+                    <img src="Images/twitter_icon.gif" alt="">
+                    <img src="Images/linked_icon.gif" alt="">
+                </div>
+            </div>
+
+
         </div>
     </div>
-    <!-- social links -->
-    
-        <div class="ms-5">
-            <h3 class="grey">FOLLOW <span class="red"> US</span></h3>
-            <img src="Images/fb_icon.gif" alt="">
-            <img src="Images/google_icon.gif" alt="">
-            <img src="Images/twitter_icon.gif" alt="">
-            <img src="Images/linked_icon.gif" alt="">
-        </div>  </div> 
-         
-        
-        </div> </div> 
-  
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+
 </body>
+
 </html>
 
 
@@ -402,12 +451,3 @@
 
 
 </div>
-
-
-
-      
-
-    <!-- Bootstrap JS Bundle -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-</html>
