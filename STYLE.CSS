@@ -40,11 +40,11 @@
   background-repeat: no-repeat;
 }
 .confi-logo img {
-  transform: rotate(15deg);
+  transform: rotate(17deg);
   position: relative;
-  top: 28px;
-  right: -15px;
-  width: 100%;
+  top: 50px;
+  right: -12px;
+  width: 80%;
 }
 .divider {
   border-bottom: 1px solid rgb(219, 207, 207);
@@ -182,45 +182,31 @@
 
 @media all and (max-width: 575px) {
   #form {
+    flex-basis: 100%;
+  }
+  .about-container{
+  
+    letter-spacing: 2px;
+    
+  }
+  .action-btn{
     width: 100%;
   }
-  .display-container {
-    width: 100%;
-    flex-direction: column;
-  }
-  .box-1 {
-    text-align: center;
-    background-color: #ab0906;
-  }
-
-  .action-btn {
-    width: 100%;
-  }
-
-  #box2 {
-    width: 100%;
-  }
+  .action-btn .btn { left: 50%;
 }
-
+}
 @media all and (min-width: 576px) and (max-width: 767px) {
   #form {
-    width: 100%;
+    flex-basis: 100%;
   }
-
-  .display-container {
-    width: 100%;
-    flex-direction: column;
-  }
-  .action-btn {
-    width: 100%;
-  }
-  #box2 {
+  .action-btn{
     width: 100%;
   }
 }
+
+  
 
 @media all and (min-width: 768px) and (max-width: 991px) {
-  #container-c {
-    width: 55%;
-  }
+ 
 }
+ 
