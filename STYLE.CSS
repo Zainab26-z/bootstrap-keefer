@@ -9,7 +9,6 @@
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-  
 }
 
 #navbarNav {
@@ -38,9 +37,7 @@
   background-image: url(images/form_bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  
 }
-
 
 .confi-logo img {
   transform: rotate(17deg);
@@ -57,7 +54,7 @@
   color: rgb(134, 21, 21);
 }
 .grey {
-  color: rgb(100, 98, 98);
+  color: rgb(90, 92, 92);
 }
 
 .BORDERIMAGE {
@@ -123,7 +120,6 @@
   font-weight: bold;
   letter-spacing: 1px;
   padding: 5px;
-  
 }
 
 .box-title {
@@ -188,30 +184,24 @@
   #form {
     flex-basis: 100%;
   }
-  .about-container{
-  
+  .about-container {
     letter-spacing: 2px;
-    
   }
-  .action-btn{
+  .action-btn {
     width: 100%;
   }
-  .action-btn .btn { left: 50%;
-}
-
+  .action-btn .btn {
+    left: 50%;
+  }
 }
 @media all and (min-width: 576px) and (max-width: 767px) {
   #form {
     flex-basis: 100%;
   }
-  .action-btn{
+  .action-btn {
     width: 100%;
   }
 }
 
-  
-
 @media all and (min-width: 768px) and (max-width: 991px) {
- 
 }
- 
